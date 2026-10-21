@@ -51,9 +51,29 @@ This repository contains my day-wise internship tasks and learning materials. It
 * Branching Basics
 * README Documentation
 
+### Day 6 — HTML Fundamentals
+
+* Introduction to HTML
+* HTML Document Structure
+* HTML Elements and Tags
+* Headings and Paragraphs
+* Links and Images
+* HTML Lists
+* HTML Tables and Forms
+* HTML Fundamentals Learning Notes
+* Day 6 Internship Task
+
+## Day 6 — Learning Materials
+
+The following PDF files are available in the `Day-06` folder:
+
+* `Day 6 task.pdf`
+* `Day_06_HTML_Fundamentals_Notes.pdf`
+
 ## Technologies and Tools
 
 * Python
+* HTML
 * Git
 * GitHub
 * Visual Studio Code
@@ -64,6 +84,6 @@ The purpose of this repository is to practice programming concepts, complete int
 
 ## Author
 
-Shweta Mulage
+**Shweta Mulage**
 
 GitHub: [shweta-1512](https://github.com/shweta-1512)
