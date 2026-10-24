@@ -11,7 +11,7 @@ This repository contains my day-wise internship tasks and learning materials. It
 * Introduction to Full Stack Development
 * Frontend, Backend, and Database
 * Client-Server Architecture
-* Overview of web development technologies
+* Overview of Web Development Technologies
 
 ### Day 2 — Python Programming Basics
 
@@ -61,29 +61,54 @@ This repository contains my day-wise internship tasks and learning materials. It
 * HTML Lists
 * HTML Tables and Forms
 * HTML Fundamentals Learning Notes
-* Day 6 Internship Task
 
-## Day 6 — Learning Materials
+### Day 7 — CSS Fundamentals
 
-The following PDF files are available in the `Day-06` folder:
+* Introduction to CSS
+* Types of CSS
+* CSS Selectors
+* Styling a Personal Profile Page
+* Registration Form Styling
+* Navigation Bar
+* Flexbox Layout
+* Responsive Web Design
 
-* `Day 6 task.pdf`
-* `Day_06_HTML_Fundamentals_Notes.pdf`
+### Day 8 — JavaScript Fundamentals
 
-## Technologies and Tools
+* Variables: var, let, and const
+* Data Types and Operators
+* Conditional Statements
+* Loops
+* Functions
+* Arrays and Objects
+* Array Operations
+* Basic JavaScript Programs
 
-* Python
-* HTML
-* Git
-* GitHub
-* Visual Studio Code
+### Day 9 — Advanced JavaScript
 
-## Purpose
+* DOM Manipulation
+* Event Handling
+* Array Methods: map(), filter(), and reduce()
+* ES6 Features
+* Arrow Functions
+* Destructuring
+* Spread and Rest Operators
+* Promises and Asynchronous JavaScript
+* Async and Await
+* Fetch API Basics
+* Interactive Webpage Development
 
-The purpose of this repository is to practice programming concepts, complete internship assignments, and track my learning progress.
+## Repository Structure
 
-## Author
-
-**Shweta Mulage**
-
-GitHub: [shweta-1512](https://github.com/shweta-1512)
+```text
+Python-Internship-Tasks/
+├── Day-01/
+├── Day-02/
+├── Day-03/
+├── Day-04/
+├── Day-05/
+├── Day-06/
+├── Day-07/
+├── Day-08/
+├── Day-09/
+└── README.md
