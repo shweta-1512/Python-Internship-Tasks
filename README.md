@@ -98,9 +98,21 @@ This repository contains my day-wise internship tasks and learning materials. It
 * Fetch API Basics
 * Interactive Webpage Development
 
+ ### Day 10 — React.js Introduction
+
+* Introduction to React.js
+* Advantages of React
+* Components and JSX
+* Functional Components
+* Props and Data Passing
+* Introduction to Vite
+* React Project Structure
+* Understanding src and public Folders
+* Creating Header, Home, and Footer Components
+* Running a React Application Locally
+
 ## Repository Structure
 
-```text
 Python-Internship-Tasks/
 ├── Day-01/
 ├── Day-02/
@@ -111,4 +123,5 @@ Python-Internship-Tasks/
 ├── Day-07/
 ├── Day-08/
 ├── Day-09/
+├── Day-10/   
 └── README.md
