@@ -1,0 +1,473 @@
+/* =========================
+   GLOBAL STYLES
+========================= */
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #20243a;
+  background: #f7f8fc;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: #f7f8fc;
+}
+
+button,
+textarea {
+  font: inherit;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+/* =========================
+   HEADER
+========================= */
+
+header {
+  background: linear-gradient(120deg, #27245c, #1c4d94);
+  color: #ffffff;
+  padding: 28px 7%;
+  text-align: left;
+  box-shadow: 0 5px 20px rgba(39, 36, 92, 0.12);
+}
+
+header h1 {
+  margin: 0 0 8px;
+  font-size: 30px;
+  letter-spacing: -0.5px;
+}
+
+header p {
+  margin: 0;
+  color: #e1e1ff;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+/* =========================
+   MAIN HOME SECTION
+========================= */
+
+.home {
+  width: 88%;
+  max-width: 1150px;
+  margin: 48px auto;
+}
+
+.home > h2 {
+  margin-bottom: 10px;
+  color: #27245c;
+  font-size: 30px;
+  letter-spacing: -0.5px;
+}
+
+.intro {
+  margin: 0 0 32px;
+  color: #74778b;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+/* =========================
+   TOPIC CARDS
+========================= */
+
+.topic-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  margin-top: 25px;
+}
+
+.topic-card {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 26px 22px;
+  background: #ffffff;
+  border: 1px solid #e5e5f0;
+  border-radius: 16px;
+  box-shadow: 0 5px 18px rgba(38, 38, 80, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.topic-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(38, 38, 80, 0.12);
+}
+
+.topic-icon {
+  display: flex;
+  width: 58px;
+  height: 58px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  background: #f0efff;
+  border-radius: 13px;
+  font-size: 30px;
+}
+
+.topic-card h3 {
+  margin: 0 0 10px;
+  color: #27245c;
+  font-size: 21px;
+}
+
+.topic-card p {
+  flex-grow: 1;
+  min-height: 48px;
+  margin: 0 0 24px;
+  color: #74778b;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* =========================
+   CARD BUTTONS
+========================= */
+
+.card-actions {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  gap: 12px;
+  margin-top: auto;
+}
+
+.card-actions button {
+  flex: 1;
+  min-width: 0;
+  min-height: 44px;
+  padding: 10px 5px;
+  border-radius: 9px;
+  font-size: 13px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.learn-button {
+  background: #1c4d94;
+  color: #ffffff;
+  border: 1px solid #1c4d94;
+}
+
+.learn-button:hover {
+  background: #39317d;
+}
+
+.read-button {
+  background: #ffffff;
+  color: #1c4d94;
+  border: 1px solid #1c4d94;
+}
+
+.read-button:hover {
+  background: #f0efff;
+}
+
+/* =========================
+   LEARN MORE & READ MORE
+   COMMON PANELS
+========================= */
+
+.practice-box,
+.information-box {
+  position: relative;
+  width: 100%;
+  margin: 35px 0;
+  padding: 32px;
+  background: #ffffff;
+  border: 1px solid #e5e5f0;
+  border-radius: 16px;
+  box-shadow: 0 6px 25px rgba(39, 36, 92, 0.07);
+}
+
+.practice-box > h2,
+.information-box h2 {
+  margin: 5px 100px 16px 0;
+  color: #27245c;
+  font-size: 27px;
+  line-height: 1.4;
+}
+
+.practice-box > p,
+.information-box p {
+  color: #686b80;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.practice-box h3,
+.information-box h3 {
+  margin: 24px 0 13px;
+  color: #30304d;
+  font-size: 18px;
+}
+
+/* =========================
+   READ MORE INFORMATION
+========================= */
+
+.info-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.info-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  background: #f0efff;
+  border-radius: 12px;
+  font-size: 25px;
+}
+
+.info-section {
+  margin: 24px 0;
+  padding: 22px;
+  background: #f8f8fd;
+  border: 1px solid #ededf6;
+  border-radius: 12px;
+}
+
+.info-section h3 {
+  margin: 0 0 12px;
+  color: #39317d;
+  font-size: 17px;
+}
+
+.info-section p,
+.info-section li {
+  color: #62657a;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.info-section ul {
+  margin-bottom: 0;
+  padding-left: 22px;
+}
+
+.info-section li {
+  margin-bottom: 6px;
+}
+
+.info-section pre {
+  width: 100%;
+  margin: 12px 0 0;
+  padding: 20px;
+  overflow-x: auto;
+  background: #202133;
+  color: #e3e5ff;
+  border-radius: 10px;
+  font-family: Consolas, "Courier New", monospace;
+  font-size: 14px;
+  line-height: 1.8;
+  white-space: pre;
+}
+
+/* =========================
+   CLOSE BUTTON
+========================= */
+
+.close-button {
+  position: absolute;
+  top: 22px;
+  right: 22px;
+  padding: 9px 13px;
+  background: #f0efff;
+  color: #1c4d94;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.close-button:hover {
+  background: #e3e0ff;
+  color: #27245c;
+}
+
+/* =========================
+   CODE EDITOR
+========================= */
+
+.code-editor {
+  display: block;
+  width: 100%;
+  min-height: 240px;
+  margin: 12px 0 18px;
+  padding: 20px;
+  resize: vertical;
+  overflow: auto;
+  background: #202133;
+  color: #e3e5ff;
+  border: 1px solid #343650;
+  border-radius: 12px;
+  outline: none;
+  font-family: Consolas, "Courier New", monospace;
+  font-size: 14px;
+  line-height: 1.8;
+  tab-size: 2;
+}
+
+.code-editor:focus {
+  border-color: #8277f5;
+  box-shadow: 0 0 0 3px rgba(130, 119, 245, 0.15);
+}
+
+/* =========================
+   RUN BUTTON
+========================= */
+
+.run-button {
+  min-height: 44px;
+  margin: 0 0 18px;
+  padding: 12px 24px;
+  background: #16845b;
+  color: #ffffff;
+  border-radius: 9px;
+  font-weight: 600;
+}
+
+.run-button:hover {
+  background: #116b49;
+  transform: translateY(-1px);
+}
+
+/* =========================
+   OUTPUT BOX
+========================= */
+
+.output-box {
+  width: 100%;
+  min-height: 90px;
+  margin: 12px 0 22px;
+  padding: 20px;
+  overflow-wrap: anywhere;
+  background: #f7f8fc;
+  color: #30304d;
+  border: 1px solid #e3e5ed;
+  border-radius: 10px;
+  font-family: Consolas, "Courier New", monospace;
+  font-size: 14px;
+  line-height: 1.8;
+  white-space: pre-wrap;
+}
+
+/* =========================
+   LIVE PREVIEW
+========================= */
+
+.preview-area iframe {
+  display: block;
+  width: 100%;
+  min-height: 250px;
+  margin-top: 12px;
+  background: #ffffff;
+  border: 1px solid #e3e5ed;
+  border-radius: 10px;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+  margin-top: 60px;
+  padding: 22px 15px;
+  background: #27245c;
+  color: #e1e1ff;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* =========================
+   RESPONSIVE DESIGN
+========================= */
+
+@media (max-width: 900px) {
+  .topic-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 650px) {
+  header {
+    padding: 25px 6%;
+  }
+
+  header h1 {
+    font-size: 25px;
+  }
+
+  .home {
+    width: 90%;
+    margin: 32px auto;
+  }
+
+  .home > h2 {
+    font-size: 25px;
+  }
+
+  .topic-list {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .practice-box,
+  .information-box {
+    margin: 25px 0;
+    padding: 22px 16px;
+  }
+
+  .practice-box > h2,
+  .information-box h2 {
+    margin-top: 45px;
+    font-size: 23px;
+  }
+
+  .info-section {
+    padding: 15px;
+  }
+
+  .info-section pre {
+    padding: 14px;
+    font-size: 13px;
+  }
+
+  .code-editor {
+    min-height: 200px;
+    padding: 14px;
+    font-size: 13px;
+  }
+
+  .output-box {
+    padding: 14px;
+  }
+
+  .practice-box .close-button,
+  .information-box .close-button {
+    top: 14px;
+    right: 14px;
+  }
+}
