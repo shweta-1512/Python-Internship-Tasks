@@ -2,93 +2,122 @@
 
 ## About the Project
 
-This repository contains my day-wise internship tasks and learning materials. It documents my learning progress in programming and software development.
+This repository contains my day-wise internship tasks, Python programs, web development projects, and learning materials. It documents my learning progress in programming and full-stack web development.
 
 ## Day-wise Tasks
 
 ### Day 1 — Introduction to Full Stack Development
 
-* Introduction to Full Stack Development
-* Frontend, Backend, and Database
+* What is Full Stack Development?
+* Frontend vs Backend vs Database
 * Client-Server Architecture
-* Overview of Web Development Technologies
+* How a Web Application Works
+* Introduction to Python Full Stack Development
+* Overview of HTML, CSS, JavaScript, React.js, Python, Django REST Framework, and SQL
+* Basic Client-Server Architecture Diagram
 
-### Day 2 — Python Programming Basics
+### Day 2 — Python Programming Fundamentals
 
+* Introduction to Python
+* Installing Python and Configuring the Environment
+* Variables and Data Types
+* Operators
+* Conditional Statements
+* Loops
+* Input and Output
+* Basic Problem-Solving
 * Even or Odd Number
-* Factorial of a Number
 * Largest of Three Numbers
-* Multiplication Table
+* Factorial of a Number
 * Prime Number
 * Reverse a Number
+* Multiplication Tables
 
 ### Day 3 — Object-Oriented Programming (OOP)
 
 * Classes and Objects
-* Constructors
+* Constructors using `__init__()`
 * Encapsulation
 * Inheritance
 * Polymorphism
+* Abstraction
+* Access Conventions
+* Methods and Method Overriding
 * Student and Employee Classes
 * Student Management Console Application
 
-### Day 4 — Advanced Python Concepts
+### Day 4 — Advanced Python Programming Concepts
 
-* Lists, Tuples, Sets, and Dictionaries
+* Lists and Tuples
+* Sets and Dictionaries
+* Strings
 * Functions and Modules
 * Exception Handling
 * File Handling
 * List and Dictionary Comprehensions
 * Lambda Functions
-* Student Management Application
+* Basic Functional Programming
+* Student and Employee Data Processing
+* Searching and Sorting Records
 
-### Day 5 — Git and GitHub
+### Day 5 — Git & GitHub
 
 * Introduction to Git and GitHub
 * Repository Creation
-* Git Configuration
-* Git Commands: init, add, commit, push, pull, and clone
+* Git Installation and Configuration
+* `git init`, `git add`, and `git commit`
+* `git push`, `git pull`, and `git clone`
 * Branching Basics
-* README Documentation
+* README File
+* Uploading Internship Tasks to GitHub
 
 ### Day 6 — HTML Fundamentals
 
 * Introduction to HTML
 * HTML Document Structure
-* HTML Elements and Tags
 * Headings and Paragraphs
 * Links and Images
-* HTML Lists
-* HTML Tables and Forms
-* HTML Fundamentals Learning Notes
+* Lists and Tables
+* Forms and Input Fields
+* Semantic HTML Elements
+* Personal Profile Page
+* Student Registration Form
+* Student Records Table
 
 ### Day 7 — CSS Fundamentals
 
 * Introduction to CSS
-* Types of CSS
-* CSS Selectors
+* Inline, Internal, and External CSS
+* Selectors and Properties
+* Colors and Backgrounds
+* Margin and Padding
+* CSS Box Model
+* Flexbox
+* Basic Responsive Design
 * Styling a Personal Profile Page
-* Registration Form Styling
+* Student Registration Form Styling
 * Navigation Bar
-* Flexbox Layout
-* Responsive Web Design
 
 ### Day 8 — JavaScript Fundamentals
 
-* Variables: var, let, and const
-* Data Types and Operators
+* Introduction to JavaScript
+* Variables: `var`, `let`, and `const`
+* Data Types
+* Operators
 * Conditional Statements
 * Loops
 * Functions
 * Arrays and Objects
+* Basic Calculations
 * Array Operations
-* Basic JavaScript Programs
+* Object Properties
+* Basic Problem-Solving Programs
 
 ### Day 9 — Advanced JavaScript
 
 * DOM Manipulation
 * Event Handling
-* Array Methods: map(), filter(), and reduce()
+* Array Methods: `map()`, `filter()`, and `reduce()`
 * ES6 Features
 * Arrow Functions
 * Destructuring
@@ -97,23 +126,81 @@ This repository contains my day-wise internship tasks and learning materials. It
 * Async and Await
 * Fetch API Basics
 * Interactive Webpage Development
+* Dynamic Data Display
 
- ### Day 10 — React.js Introduction
+### Day 10 — React.js Introduction
 
-* Introduction to React.js
+* What is React.js?
 * Advantages of React
-* Components and JSX
+* Components
+* JSX
 * Functional Components
-* Props and Data Passing
+* Props
 * Introduction to Vite
 * React Project Structure
-* Understanding src and public Folders
-* Creating Header, Home, and Footer Components
+* Understanding `src` and `public` Folders
+* Creating Header, Footer, and Home Components
+* Passing Data Using Props
 * Running a React Application Locally
+
+### Day 11 — React Components, State & Forms
+
+* Functional Components
+* Props and State
+* `useState` Hook
+* Event Handling
+* Controlled Components
+* Form Handling
+* Conditional Rendering
+* Basic Form Validation
+* Student Registration Form in React
+* Dynamic UI Updates
+
+### Day 12 — React Routing
+
+* Introduction to React Router
+* BrowserRouter
+* Routes and Route
+* Link and NavLink
+* Navigation Between Pages
+* Dynamic Route Parameters
+* Basic 404 Page
+* Creating Home, About, Students, and Contact Pages
+* Client-Side Routing
+
+### Day 13 — Database Fundamentals
+
+* Introduction to Databases
+* Relational Databases
+* Tables, Rows, and Columns
+* Primary Keys and Foreign Keys
+* Relationships Between Tables
+* Introduction to PostgreSQL
+* Database Design Basics
+* ER Diagrams
+* Student Management Database Design
+* Student and Course Tables
+
+### Day 14 — SQL Fundamentals
+
+* Introduction to SQL
+* CREATE, ALTER, and DROP Commands
+* INSERT, UPDATE, and DELETE Commands
+* SELECT Statements
+* WHERE, ORDER BY, and LIMIT Clauses
+* Filtering Records
+* SQL Constraints
+* Primary Keys and Foreign Keys
+* Creating Databases and Tables
+* Inserting Student and Course Records
+* Retrieving and Updating Records
+* Deleting Selected Records
+* Practicing SQL Queries
 
 ## Repository Structure
 
 Python-Internship-Tasks/
+│
 ├── Day-01/
 ├── Day-02/
 ├── Day-03/
@@ -123,5 +210,28 @@ Python-Internship-Tasks/
 ├── Day-07/
 ├── Day-08/
 ├── Day-09/
-├── Day-10/   
+├── Day-10/
+├── Day-11/
+├── Day-12/
+├── Day-13/
+├── Day-14/
+│
 └── README.md
+
+## Technologies Used
+
+* Python
+* HTML
+* CSS
+* JavaScript
+* React.js
+* Vite
+* Django REST Framework
+* PostgreSQL
+* SQL
+* Git
+* GitHub
+
+## Learning Outcome
+
+Through these internship tasks, I am developing practical knowledge of Python programming, object-oriented programming, frontend development, React.js, database design, SQL, and version control using Git and GitHub.
