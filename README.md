@@ -1,4 +1,4 @@
-# Python Internship Tasks
+﻿# Python Internship Tasks
 
 ## About the Project
 
@@ -6,7 +6,7 @@ This repository contains my day-wise internship tasks, Python programs, web deve
 
 ## Day-wise Tasks
 
-### Day 1 — Introduction to Full Stack Development
+### Day 1 â€” Introduction to Full Stack Development
 
 * What is Full Stack Development?
 * Frontend vs Backend vs Database
@@ -16,7 +16,7 @@ This repository contains my day-wise internship tasks, Python programs, web deve
 * Overview of HTML, CSS, JavaScript, React.js, Python, Django REST Framework, and SQL
 * Basic Client-Server Architecture Diagram
 
-### Day 2 — Python Programming Fundamentals
+### Day 2 â€” Python Programming Fundamentals
 
 * Introduction to Python
 * Installing Python and Configuring the Environment
@@ -33,7 +33,7 @@ This repository contains my day-wise internship tasks, Python programs, web deve
 * Reverse a Number
 * Multiplication Tables
 
-### Day 3 — Object-Oriented Programming (OOP)
+### Day 3 â€” Object-Oriented Programming (OOP)
 
 * Classes and Objects
 * Constructors using `__init__()`
@@ -46,7 +46,7 @@ This repository contains my day-wise internship tasks, Python programs, web deve
 * Student and Employee Classes
 * Student Management Console Application
 
-### Day 4 — Advanced Python Programming Concepts
+### Day 4 â€” Advanced Python Programming Concepts
 
 * Lists and Tuples
 * Sets and Dictionaries
@@ -60,7 +60,7 @@ This repository contains my day-wise internship tasks, Python programs, web deve
 * Student and Employee Data Processing
 * Searching and Sorting Records
 
-### Day 5 — Git & GitHub
+### Day 5 â€” Git & GitHub
 
 * Introduction to Git and GitHub
 * Repository Creation
@@ -71,7 +71,7 @@ This repository contains my day-wise internship tasks, Python programs, web deve
 * README File
 * Uploading Internship Tasks to GitHub
 
-### Day 6 — HTML Fundamentals
+### Day 6 â€” HTML Fundamentals
 
 * Introduction to HTML
 * HTML Document Structure
@@ -84,7 +84,7 @@ This repository contains my day-wise internship tasks, Python programs, web deve
 * Student Registration Form
 * Student Records Table
 
-### Day 7 — CSS Fundamentals
+### Day 7 â€” CSS Fundamentals
 
 * Introduction to CSS
 * Inline, Internal, and External CSS
@@ -98,7 +98,7 @@ This repository contains my day-wise internship tasks, Python programs, web deve
 * Student Registration Form Styling
 * Navigation Bar
 
-### Day 8 — JavaScript Fundamentals
+### Day 8 â€” JavaScript Fundamentals
 
 * Introduction to JavaScript
 * Variables: `var`, `let`, and `const`
@@ -113,7 +113,7 @@ This repository contains my day-wise internship tasks, Python programs, web deve
 * Object Properties
 * Basic Problem-Solving Programs
 
-### Day 9 — Advanced JavaScript
+### Day 9 â€” Advanced JavaScript
 
 * DOM Manipulation
 * Event Handling
@@ -128,7 +128,7 @@ This repository contains my day-wise internship tasks, Python programs, web deve
 * Interactive Webpage Development
 * Dynamic Data Display
 
-### Day 10 — React.js Introduction
+### Day 10 â€” React.js Introduction
 
 * What is React.js?
 * Advantages of React
@@ -143,7 +143,7 @@ This repository contains my day-wise internship tasks, Python programs, web deve
 * Passing Data Using Props
 * Running a React Application Locally
 
-### Day 11 — React Components, State & Forms
+### Day 11 â€” React Components, State & Forms
 
 * Functional Components
 * Props and State
@@ -156,7 +156,7 @@ This repository contains my day-wise internship tasks, Python programs, web deve
 * Student Registration Form in React
 * Dynamic UI Updates
 
-### Day 12 — React Routing
+### Day 12 â€” React Routing
 
 * Introduction to React Router
 * BrowserRouter
@@ -168,7 +168,7 @@ This repository contains my day-wise internship tasks, Python programs, web deve
 * Creating Home, About, Students, and Contact Pages
 * Client-Side Routing
 
-### Day 13 — Database Fundamentals
+### Day 13 â€” Database Fundamentals
 
 * Introduction to Databases
 * Relational Databases
@@ -181,7 +181,7 @@ This repository contains my day-wise internship tasks, Python programs, web deve
 * Student Management Database Design
 * Student and Course Tables
 
-### Day 14 — SQL Fundamentals
+### Day 14 â€” SQL Fundamentals
 
 * Introduction to SQL
 * CREATE, ALTER, and DROP Commands
@@ -197,26 +197,38 @@ This repository contains my day-wise internship tasks, Python programs, web deve
 * Deleting Selected Records
 * Practicing SQL Queries
 
+
+### Day 15 — Advanced SQL
+
+* Aggregate Functions: COUNT(), SUM(), AVG(), MIN(), MAX()
+* GROUP BY and HAVING Clauses
+* SQL Joins (INNER JOIN)
+* Subqueries
+* Relationships Between Tables
+* Index Basics
+* Normalization Fundamentals
+* Identifying Duplicate Records
+* Practicing Advanced SQL Queries using MySQL
 ## Repository Structure
 
 Python-Internship-Tasks/
-│
-├── Day-01/
-├── Day-02/
-├── Day-03/
-├── Day-04/
-├── Day-05/
-├── Day-06/
-├── Day-07/
-├── Day-08/
-├── Day-09/
-├── Day-10/
-├── Day-11/
-├── Day-12/
-├── Day-13/
-├── Day-14/
-│
-└── README.md
+â”‚
+â”œâ”€â”€ Day-01/
+â”œâ”€â”€ Day-02/
+â”œâ”€â”€ Day-03/
+â”œâ”€â”€ Day-04/
+â”œâ”€â”€ Day-05/
+â”œâ”€â”€ Day-06/
+â”œâ”€â”€ Day-07/
+â”œâ”€â”€ Day-08/
+â”œâ”€â”€ Day-09/
+â”œâ”€â”€ Day-10/
+â”œâ”€â”€ Day-11/
+â”œâ”€â”€ Day-12/
+â”œâ”€â”€ Day-13/
+â”œâ”€â”€ Day-14/
+â”‚
+â””â”€â”€ README.md
 
 ## Technologies Used
 
@@ -228,6 +240,7 @@ Python-Internship-Tasks/
 * Vite
 * Django REST Framework
 * PostgreSQL
+* MySQL
 * SQL
 * Git
 * GitHub
@@ -235,17 +248,4 @@ Python-Internship-Tasks/
 ## Learning Outcome
 
 Through these internship tasks, I am developing practical knowledge of Python programming, object-oriented programming, frontend development, React.js, database design, SQL, and version control using Git and GitHub.
-
-## Day 15 - Advanced SQL
-
-- Practiced SQL Aggregate Functions: COUNT(), SUM(), AVG(), MIN(), MAX().
-- Worked with GROUP BY and HAVING clauses.
-- Practiced INNER JOIN and table relationships.
-- Learned and practiced Subqueries.
-- Created and practiced SQL queries using MySQL.
-
-**Files:**
-- Day 15.pdf
-- Day_15_Advanced_SQL_Answers.pdf
-- Day_15_Advanced_SQL.sql
 
