@@ -235,3 +235,17 @@ Python-Internship-Tasks/
 ## Learning Outcome
 
 Through these internship tasks, I am developing practical knowledge of Python programming, object-oriented programming, frontend development, React.js, database design, SQL, and version control using Git and GitHub.
+
+## Day 15 - Advanced SQL
+
+- Practiced SQL Aggregate Functions: COUNT(), SUM(), AVG(), MIN(), MAX().
+- Worked with GROUP BY and HAVING clauses.
+- Practiced INNER JOIN and table relationships.
+- Learned and practiced Subqueries.
+- Created and practiced SQL queries using MySQL.
+
+**Files:**
+- Day 15.pdf
+- Day_15_Advanced_SQL_Answers.pdf
+- Day_15_Advanced_SQL.sql
+
