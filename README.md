@@ -266,30 +266,49 @@ Each day includes relevant tasks, solutions, programs, and project work.
 
 ## Repository Structure
 
-```text
 Python-Internship-Tasks/
 │
-├── Day-01/
-├── Day-02/
-├── Day-03/
-├── Day-04/
-├── Day-05/
-├── Day-06/
-├── Day-07/
-├── Day-08/
-├── Day-09/
-├── Day-10/
-├── Day-11/
+├── Day-01/  # Full Stack Development & Architecture Diagram
+│
+├── Day-02/  # Python Basic Programs
+│
+├── Day-03/  # OOP Concepts & Student Management Program
+│
+├── Day-04/  # Advanced Python & Data Processing
+│
+├── Day-05/  # Git & GitHub Practice
+│
+├── Day-06/  # HTML Profile Page & Registration Form
+│
+├── Day-07/  # CSS Styling & Responsive Design
+│
+├── Day-08/  # JavaScript Fundamentals & Programs
+│
+├── Day-09/  # DOM Manipulation & Interactive Webpage
+│
+├── Day-10/  # React Components, JSX & Props
+│
+├── Day-11/  # Student Registration Application
 │   └── student-registration/
-├── Day-12/
-├── Day-13/
-├── Day-14/
-├── Day-15/
-├── Day-16/
-├── Day-17/
-├── Day-18/
+│       ├── src/       # React Frontend
+│       └── backend/   # Django REST API & CRUD Operations
+│
+├── Day-12/  # React Router & Page Navigation
+│
+├── Day-13/  # Database Design & ER Diagram
+│
+├── Day-14/  # SQL Queries & Database Operations
+│
+├── Day-15/  # Advanced SQL Queries & Joins
+│
+├── Day-16/  # Backend Development & REST API Basics
+│
+├── Day-17/  # Django REST Framework & Student APIs
+│
+├── Day-18/  # Database Connectivity & Student CRUD API
 │
 └── README.md
+
 ## Technologies Used
 
 * Python
