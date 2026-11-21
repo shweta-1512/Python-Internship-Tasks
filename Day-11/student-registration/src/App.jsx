@@ -323,7 +323,7 @@ function Registration({ onRegister }) {
     setSuccess('');
   }
 
-  function handleSubmit(e) {
+  async function handleSubmit(e) {
     e.preventDefault();
 
     const newErrors = {};
@@ -347,8 +347,33 @@ function Registration({ onRegister }) {
     setErrors(newErrors);
 
     if (Object.keys(newErrors).length === 0) {
-      setSuccess('Registration successful! Welcome, ' + formData.name);
-      onRegister(formData);
+      try {
+        const response = await fetch('/api/students/', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(formData),
+        });
+
+        const data = await response.json();
+
+        if (!response.ok) {
+          setSuccess(
+            data.email
+              ? 'This email is already registered.'
+              : 'Registration failed. Please check your details.'
+          );
+          return;
+        }
+
+        setSuccess('Registration successful! Welcome, ' + data.name);
+        onRegister(data);
+
+      } catch (error) {
+        setSuccess('Backend server is not connected. Please try again.');
+        console.error(error);
+      }
     }
   }
 

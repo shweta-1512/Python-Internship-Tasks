@@ -1,0 +1,59 @@
+{
+	"info": {
+		"_postman_id": "e0030e4b-cdff-46dc-8b3b-3baab99e561a",
+		"name": "Student Management API Testing",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "51094068",
+		"_collection_link": "https://shwetamulage177-48424.postman.co/workspace/Shweta-Mulage's-Workspace~1311292c-705d-4a84-8412-11baacca8538/collection/51094068-e0030e4b-cdff-46dc-8b3b-3baab99e561a?action=share&source=collection_link&creator=51094068"
+	},
+	"item": [
+		{
+			"name": "GET - Student List",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "POST - Create Student",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "GET - Student Detail",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "PUT - Update Student",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "PATCH - Partial Update",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE - Delete Student",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
